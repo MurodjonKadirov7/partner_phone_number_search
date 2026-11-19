@@ -1,7 +1,7 @@
 # Copyright todoo.uz. License OPL-1 (Odoo Proprietary License v1.0).
 {
     'name': 'Partner Phone Search | Find Customers by Phone Number',
-    'version': '18.0.1.1.0',
+    'version': '18.0.1.1.1',
     'category': 'Sales/Sales',
     'summary': 'Type a phone number in any customer or contact field and find the '
                'partner, whatever the format: spaces, brackets, dashes, +, 00',
@@ -18,8 +18,6 @@ name, email and reference keeps working.
     'website': 'https://todoo.uz',
     'support': 'info@todoo.uz',
     'license': 'OPL-1',
-    'price': 4.99,
-    'currency': 'USD',
     'images': ['static/description/banner.png'],
     'depends': ['phone_validation'],
     'assets': {
