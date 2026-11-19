@@ -1,0 +1,65 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* partner_phone_number_search
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-19 09:01+0000\n"
+"PO-Revision-Date: 2026-11-19 09:01+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: uz\n"
+"Plural-Forms: \n"
+
+#. module: partner_phone_number_search
+#: model:ir.module.module,description:base.module_partner_phone_number_search
+msgid ""
+"\n"
+"Partner Phone Search\n"
+"====================\n"
+"Typing a phone number in a customer field (sales orders, quotations, invoices,\n"
+"any partner field) finds the partner. The number is matched without its\n"
+"formatting: a contact saved as +998 90 123 45 67 is found by 901234567.\n"
+"The number shows next to the name in the suggestions. The usual search on\n"
+"name, email and reference keeps working.\n"
+msgstr ""
+"\n"
+"Partner Phone Search\n"
+"====================\n"
+"Mijoz maydoniga (sotuv buyurtmalari, takliflar, hisob-fakturalar, istalgan\n"
+"hamkor maydoni) yozilgan telefon raqami hamkorni topadi. Raqam formatisiz\n"
+"solishtiriladi: +998 90 123 45 67 deb saqlangan kontakt 901234567 bilan\n"
+"topiladi. Takliflarda raqam ism yonida ko'rinadi. Ism, email va havola\n"
+"bo'yicha odatiy qidiruv avvalgidek ishlaydi.\n"
+
+#. module: partner_phone_number_search
+#: model:ir.model,name:partner_phone_number_search.model_res_partner
+msgid "Contact"
+msgstr "Kontakt"
+
+#. module: partner_phone_number_search
+#: model:ir.model.fields,field_description:partner_phone_number_search.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Ko'rinadigan nom"
+
+#. module: partner_phone_number_search
+#: model:ir.model.fields,field_description:partner_phone_number_search.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: partner_phone_number_search
+#: model:ir.module.module,shortdesc:base.module_partner_phone_number_search
+msgid "Partner Phone Search | Find Customers by Phone Number"
+msgstr "Hamkorni telefon orqali qidirish | Mijozlarni telefon raqami bo'yicha topish"
+
+#. module: partner_phone_number_search
+#: model:ir.module.module,summary:base.module_partner_phone_number_search
+msgid ""
+"Type a phone number in any customer or contact field and find the partner, "
+"whatever the format: spaces, brackets, dashes, +, 00"
+msgstr "Istalgan mijoz yoki kontakt maydoniga telefon raqamini yozing va hamkorni toping, format qanday bo'lishidan qat'i nazar: bo'sh joy, qavs, chiziqcha, +, 00"
